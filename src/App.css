@@ -491,12 +491,12 @@
 
     .showcase-title {
         text-align: center;
-        font-size: 52px;
+        font-size: 52px !important;
     }
 
     .showcase-subtitle {
         text-align: center;
-        font-size: 38px;
+        font-size: 38px !important;
     }
 
     .showcase-desc {
@@ -538,9 +538,9 @@
 
 @media only screen and (max-width: 480px) {
 
-    .showcase-title { font-size: 48px; }
-    .showcase-subtitle { font-size: 34px; }
-    .showcase-desc { font-size: 16px; }
+    .showcase-title { font-size: 48px !important; }
+    .showcase-subtitle { font-size: 34px !important; }
+    .showcase-desc { font-size: 16px !important; }
 
     .about-left-card-content h1 { padding-top: 10px; }
     .about-left-card-content p { padding: 30px; }
