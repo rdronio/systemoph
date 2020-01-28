@@ -323,8 +323,18 @@
       color: #000;
   }
   
-  /* .footer-contact-us-content, */
-  
+  .footer-contact-us-content {
+        text-align: left !important;
+        /* text-transform: uppercase; */
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-left: 25px;
+        font-weight: 400;
+        font-size: 14px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+        color: #000;
+  }
+
   .footer-address-content,
   .footer-hours-content{
       text-align: left !important;
