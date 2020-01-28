@@ -520,6 +520,10 @@
         font-size: 16px;    
     }
 
+    .projects-desc {
+        width: 50%;
+    }
+
 }
 
 .segment.showcase {
