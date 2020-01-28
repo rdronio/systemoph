@@ -57,7 +57,7 @@ export default class MenuHeader extends Component {
                         Consider it Solved.
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-desc">
-                        A Local Philippine Company which aim to Provide Quality IT Solutions and Consultancy
+                        A Local Philippine Company which aim to Provide Quality IT Solutions and Consultancy to help the growth of small, medium, and large enterprises ( Local and Global ).
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-button">
                         <a href="#"> Get Started </a>

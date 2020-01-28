@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Image, Grid, Button  } from 'semantic-ui-react'
+import { Image, Grid } from 'semantic-ui-react'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -9,11 +9,13 @@ export default class Service extends Component {
     render() {
         return (
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service">
+
                 <ScrollAnimation animateIn="zoomInDown" animateOut="fadeOutUp" className="service">
-                <h1> Services </h1>
+                    <h1> Services </h1>
                 </ScrollAnimation>
-                <Grid columns={3} stackable>
-                    <Grid.Column width="5.3">
+
+                <Grid stackable columns={3}>
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -22,7 +24,7 @@ export default class Service extends Component {
                             </div>
                         </ScrollAnimation>
                     </Grid.Column>
-                    <Grid.Column width="5.3">
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -31,7 +33,7 @@ export default class Service extends Component {
                             </div>
                         </ScrollAnimation>
                     </Grid.Column>
-                    <Grid.Column width="5.3">
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -41,8 +43,9 @@ export default class Service extends Component {
                         </ScrollAnimation>
                     </Grid.Column>
                 </Grid>
-                 <Grid columns={3} stackable>
-                    <Grid.Column width="5.3">
+
+                <Grid columns={3} stackable>
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -51,7 +54,7 @@ export default class Service extends Component {
                             </div>
                         </ScrollAnimation>
                     </Grid.Column>
-                    <Grid.Column width="5.3">
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -60,7 +63,7 @@ export default class Service extends Component {
                             </div>
                         </ScrollAnimation>
                     </Grid.Column>
-                    <Grid.Column width="5.3">
+                    <Grid.Column mobile={16} tablet={10} computer={5}>
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Image src={circle} size="tiny" className="services-image"/>
                             <div>
@@ -70,7 +73,6 @@ export default class Service extends Component {
                         </ScrollAnimation>
                     </Grid.Column>
                 </Grid>
-                {/* <Button> Learn More </Button> */}
             </ScrollAnimation>
         )
     }
