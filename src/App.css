@@ -485,15 +485,23 @@
     }
 
     .showcase-title {
+        text-align: center;
         font-size: 52px;
     }
 
     .showcase-subtitle {
+        text-align: center;
         font-size: 38px;
     }
 
     .showcase-desc {
+        text-align: center;
         font-size: 14px;
+        width: 90% !important;
+    }
+
+    .showcase-button a, .showcase-button a:hover {
+        background: #FFF !important;
     }
 
 }
