@@ -1106,7 +1106,7 @@ table.tableLayout .column14 {
 
 #login .right-container {
   flex: 1;
-  background: url("../Images/bg.jpg") no-repeat center center/cover;
+  /* background: url("../Images/bg.jpg") no-repeat center center/cover; */
 }
 
 #login .right-container .overlay {
