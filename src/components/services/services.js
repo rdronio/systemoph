@@ -10,7 +10,7 @@ export default class Service extends Component {
         return (
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service">
 
-                <ScrollAnimation animateIn="zoomInDown" animateOut="fadeOutUp" className="service">
+                <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut" className="service">
                     <h1> Services </h1>
                 </ScrollAnimation>
 
