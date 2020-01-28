@@ -216,7 +216,7 @@
   }
   
   .career-right-card-content {
-      padding: 40px;
+      padding: 5px;
   }
   
   .career-right-card-content h1{
@@ -323,7 +323,8 @@
       color: #000;
   }
   
-  .footer-contact-us-content,
+  /* .footer-contact-us-content, */
+  
   .footer-address-content,
   .footer-hours-content{
       text-align: left !important;
