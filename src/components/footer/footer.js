@@ -19,7 +19,7 @@ export default class About extends Component {
                         <Grid.Column width="4">
                             <div className="footer-contact-us"> Contact Details </div>
                             <div className="footer-contact-us-content">
-                                <p> info@systemoph.com <br /> +639190002586 <br /> +639612452478 <br /> +639175553844 </p>
+                                <p> info@systemoph.com <br /> +639175553844 <br /> +639612452478 <br /> +639190002586</p>
                             </div>
                         </Grid.Column>
 
