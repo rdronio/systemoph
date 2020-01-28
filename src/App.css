@@ -505,6 +505,21 @@
         text-align: center;
     }
 
+    .service h1, 
+    .about-left-card-content h1,
+    .career-right-card-content h1,
+    .projects-title  {
+        font-size: 36px;
+    }
+
+    .service-title {
+        font-size: 18px;
+    }
+
+    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
+        font-size: 16px;    
+    }
+
 }
 
 .segment.showcase {
