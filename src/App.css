@@ -475,7 +475,7 @@
         text-align: center;
     }
 
-    .projects-content-grid div{
+    .projects-content-grid div,.ui.stackable.grid>.column:not(.row), .ui.stackable.grid>.wide.column { /* Try lang 'to */
         margin: 5px auto !important;
     }
 
