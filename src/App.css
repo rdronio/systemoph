@@ -502,6 +502,7 @@
 
     .showcase-button a, .showcase-button a:hover {
         background: #FFF !important;
+        text-align: center;
     }
 
 }
