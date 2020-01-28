@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* John Michael T. Del Rosario
+   SysteMoPH - 1/24/2020 */ 
+
+@font-face {
+  font-family: 'The-Bold';
+  src: url('./fonts/theboldfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Provicali';
+  src: url('./fonts/Provicali.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  src: url('./fonts/Helvetica-Neu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: italic;
+  src: url('./fonts/HelveticaNeueIt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica-Blk';
+  src: url('./fonts/HelveticaNeue-BlackCond.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica-Med';
+  src: url('./fonts/HelveticaNeueMed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica-Thin';
+  src: url('./fonts/HelveticaNeue-Thin.ttf') format('truetype');
+}
+
