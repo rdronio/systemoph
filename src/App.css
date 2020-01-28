@@ -502,7 +502,7 @@
 
     .showcase-button a, .showcase-button a:hover {
         background: #FFF !important;
-        text-align: center;
+        text-align: center !important;
     }
 
     .service h1, 
