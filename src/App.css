@@ -500,10 +500,8 @@
         width: 90% !important;
     }
 
-    .showcase-button a, .showcase-button a:hover {
-        background: #FFF !important;
-        text-align: center !important;
-    }
+    .showcase-button { text-align: center !important; }
+    .showcase-button a, .showcase-button a:hover { background: #FFF !important; }
 
     .service h1, 
     .about-left-card-content h1,
