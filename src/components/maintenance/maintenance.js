@@ -11,7 +11,7 @@ export default class Maintenance extends Component {
         return (
             <section id="maintenance">
                 <header>
-                    <a href="https://www.systemoph.com/">
+                    <a href="http://www.systemoph.com/">
                     <img src={LogoMaintenance} alt="" />
                     </a>
                 </header>
