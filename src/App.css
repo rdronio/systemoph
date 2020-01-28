@@ -431,6 +431,11 @@
     width: auto !important;
 }
 
+.segment.showcase {
+    background-position: top !important;
+    background-size: cover !important;
+}
+
   /* Tablet and Mobile View */
   @media only screen and (max-width: 991px) {
       .right.menu {
@@ -475,7 +480,7 @@
         text-align: center;
     }
 
-    .projects-content-grid div,.ui.stackable.grid>.column:not(.row), .ui.stackable.grid>.wide.column { /* Try lang 'to */
+    .projects-content-grid div, .projects-content-grid.ui.stackable.grid>.column:not(.row), .projects-content-grid.ui.stackable.grid>.wide.column { /* Try lang 'to */
         margin: 5px auto !important;
     }
 
@@ -519,22 +524,41 @@
     }
 
     .service-title {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
-        font-size: 16px;    
+        font-size: 16px !important;    
     }
 
     .projects-desc {
         width: 50%;
     }
-
 }
 
-.segment.showcase {
-    background-position: top !important;
-    background-size: cover !important;
+@media only screen and (max-width: 480px) {
+
+    .showcase-title { font-size: 48px; }
+    .showcase-subtitle { font-size: 34px; }
+    .showcase-desc { font-size: 16px; }
+
+    .about-left-card-content h1 { padding-top: 10px; }
+    .about-left-card-content p { padding: 30px; }
+
+    .service h1, 
+    .about-left-card-content h1,
+    .career-right-card-content h1,
+    .projects-title  {
+        font-size: 32px;
+    }
+
+    .service-title {
+        font-size: 16px !important;
+    }
+
+    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
+        font-size: 14px !important;    
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -554,10 +578,7 @@
     .showcase-desc {
         font-size: 18px;
     }
-}
 
-
-@media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
         max-width: 80%!important;
         margin-top: 8em;
