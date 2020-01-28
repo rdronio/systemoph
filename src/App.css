@@ -511,6 +511,14 @@
     .projects-title  {
         font-size: 36px;
     }
+    
+    .about-left-card-content h1 {
+        padding-top: 20px;
+    }
+
+    .about-left-card-content p {
+        padding: 60px;
+    }
 
     .service-title {
         font-size: 18px;
