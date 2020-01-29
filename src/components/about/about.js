@@ -22,6 +22,15 @@ export default class About extends Component {
                         </ScrollAnimation>
                     </Grid.Column>
                 </Grid>
+                
+                <Segment className="about-mission" vertical textAlign='center' >
+                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="about-mission-title">
+                        Our Mission
+                    </ScrollAnimation>
+                    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="about-mission-title">
+                        is to enable our EMPLOYEE to grow their business by: Treating the employees with respect.Providing valuable employment. Facilitate employee achievement and development. Compassion. Teamwork
+                    </ScrollAnimation>
+                </Segment>
             </Segment>
         )
     }
