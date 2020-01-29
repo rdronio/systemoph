@@ -23,7 +23,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Websites </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -38,7 +38,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Web Apps </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -53,7 +53,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> On Premise System </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -71,7 +71,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Hardware </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -86,7 +86,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Outsourcing and Offshoring </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
