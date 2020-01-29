@@ -218,6 +218,7 @@
   
   .career-right-card-content {
       padding: 5px;
+      margin-bottom: 25px;
   }
   
   .career-right-card-content h1{
@@ -479,6 +480,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+
+    .ui.grid>.column:not(.row) {
+        padding: 0 !important;
+    }
     .right.menu {
         display: none !important;
     }
