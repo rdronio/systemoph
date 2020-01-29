@@ -93,6 +93,20 @@ export default class SlickServices extends Component {
                         </Grid.Column>
                     </Grid>
                 </div>
+
+                <div>
+                    <Grid stackable columns={2}>
+                        <Grid.Column mobile={16} tablet={6} computer={6} className="slickservices-image-content">
+                            <Image src={circle} size="tiny" className="services-image"/>
+                        </Grid.Column>
+                        <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
+                            <div>
+                                <div className="service-title"> E-Commerce </div>
+                                <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
+                            </div>
+                        </Grid.Column>
+                    </Grid>
+                </div>
                 </Slider>
             </div>
         );

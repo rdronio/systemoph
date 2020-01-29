@@ -101,7 +101,7 @@ export default class Service extends Component {
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> E-Commerce </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
