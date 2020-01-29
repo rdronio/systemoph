@@ -9,6 +9,8 @@ import websiteImage from './images/website.png';
 import hardwareImage from './images/hardware.png';
 import ecommerceImage from './images/ecommerce.png';
 import webappsImage from './images/webapps.png';
+import outsourcingImage from './images/outsourcing.png';
+import onpremiseImage from './images/onpremise.png';
 
 export default class Service extends Component {
     render() {
@@ -54,7 +56,7 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={onpremiseImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
@@ -87,7 +89,7 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={outsourcingImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
