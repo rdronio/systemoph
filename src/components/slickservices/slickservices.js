@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom';
 import Slider from "react-slick";
 
 import circle from './images/circle.png';
+import websiteImage from './images/website.png';
+import hardwareImage from './images/hardware.png';
+import ecommerceImage from './images/ecommerce.png';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -31,7 +34,7 @@ export default class SlickServices extends Component {
                 <div>
                     <Grid stackable columns={2}>
                         <Grid.Column mobile={16} tablet={6} computer={6} className="slickservices-image-content">
-                            <Image src={circle} size="tiny" className="services-image"/>
+                            <Image src={websiteImage} size="tiny" className="services-image"/>
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                             <div>
@@ -70,7 +73,7 @@ export default class SlickServices extends Component {
                 <div>
                     <Grid stackable columns={2}>
                         <Grid.Column mobile={16} tablet={6} computer={6} className="slickservices-image-content">
-                            <Image src={circle} size="tiny" className="services-image"/>
+                            <Image src={hardwareImage} size="tiny" className="services-image"/>
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                             <div>
@@ -97,7 +100,7 @@ export default class SlickServices extends Component {
                 <div>
                     <Grid stackable columns={2}>
                         <Grid.Column mobile={16} tablet={6} computer={6} className="slickservices-image-content">
-                            <Image src={circle} size="tiny" className="services-image"/>
+                            <Image src={ecommerceImage} size="tiny" className="services-image"/>
                         </Grid.Column>
                         <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                             <div>
