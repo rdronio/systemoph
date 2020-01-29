@@ -19,7 +19,7 @@ html {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   background: #fff !important;
   width: 10px !important;
   padding: 0 2px;
@@ -28,7 +28,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: #333 !important;
   border-radius: 10px 10px !important;
-}
+} */
 
 form {
   height: 100%;
