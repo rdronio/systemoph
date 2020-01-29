@@ -436,31 +436,67 @@
     background-size: cover !important;
 }
 
-  /* Tablet and Mobile View */
-  @media only screen and (max-width: 991px) {
-      .right.menu {
-          display: none !important;
-      }
-  
-      .service:nth-of-type(2) .grid > div {
-          margin: 0 auto !important;
-      }
-  
-      .ui.stackable.grid {
-          margin-left: auto !important;
-          margin-right: auto !important;
-      }
-  
-      .career-right-card-content h1 {
-          margin-left: 0px;
-          text-align: center;
-      }
-  
-      .projects-content-grid div{
-          margin: 5px auto !important;
-      }
-  }
-  
+/* Tablet and Mobile View */
+@media only screen and (max-width: 1440px) {
+    .ui.text.container.showcase-content {
+        max-width: 80%!important;
+        margin-top: 8em;
+    }
+    
+    .showcase-title {
+        font-size: 64px;
+    }
+    
+    .showcase-subtitle {
+        font-size: 48px;
+    }
+    
+    .showcase-desc {
+        font-size: 18px;
+    }
+
+    .ui.text.container.showcase-content {
+        max-width: 80%!important;
+        margin-top: 8em;
+    }
+    
+    .showcase-title {
+        font-size: 64px;
+    }
+    
+    .showcase-subtitle {
+        font-size: 48px;
+    }
+    
+    .showcase-desc {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .right.menu {
+        display: none !important;
+    }
+
+    .service:nth-of-type(2) .grid > div {
+        margin: 0 auto !important;
+    }
+
+    .ui.stackable.grid {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .career-right-card-content h1 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .projects-content-grid div{
+        margin: 5px auto !important;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .right.menu {
         display: none !important;
@@ -479,6 +515,18 @@
         margin-left: 0px;
         text-align: center;
     }
+
+    .ui.stackable.grid>.services-image-content.column:not(.row),
+    .ui.stackable.grid>.services-image-content.wide.column {
+        width: 30% !important;
+        margin: 0 auto !important;
+    }
+
+    .services-desc-content {
+        text-align: center !important;
+    }
+
+
 
     .projects-content-grid div, .projects-content-grid.ui.stackable.grid>.column:not(.row), .projects-content-grid.ui.stackable.grid>.wide.column { /* Try lang 'to */
         margin: 5px auto !important;
@@ -537,10 +585,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-
-    .showcase-title { font-size: 48px !important; }
-    .showcase-subtitle { font-size: 34px !important; }
-    .showcase-desc { font-size: 16px !important; }
+    .showcase-title { font-size: 42px !important; }
+    .showcase-subtitle { font-size: 28px !important; }
+    .showcase-desc { font-size: 14px !important; }
 
     .about-left-card-content h1 { padding-top: 10px; }
     .about-left-card-content p { padding: 30px; }
@@ -549,7 +596,37 @@
     .about-left-card-content h1,
     .career-right-card-content h1,
     .projects-title  {
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+    .service-title {
+        font-size: 16px !important;
+    }
+
+    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
+        font-size: 14px !important;    
+    }
+
+    .ui.stackable.grid>.services-image-content.column:not(.row),
+    .ui.stackable.grid>.services-image-content.wide.column {
+        width: 40% !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .showcase-title { font-size: 38px !important; }
+    .showcase-subtitle { font-size: 24px !important; }
+    .showcase-desc { font-size: 14px !important; }
+
+    .about-left-card-content h1 { padding-top: 5px; }
+    .about-left-card-content p { padding: 20px; }
+
+    .service h1, 
+    .about-left-card-content h1,
+    .career-right-card-content h1,
+    .projects-title  {
+        font-size: 28px;
     }
 
     .service-title {
@@ -561,38 +638,26 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
-    .ui.text.container.showcase-content {
-        max-width: 80%!important;
-        margin-top: 8em;
-    }
-    
-    .showcase-title {
-        font-size: 64px;
-    }
-    
-    .showcase-subtitle {
-        font-size: 48px;
-    }
-    
-    .showcase-desc {
-        font-size: 18px;
+@media only screen and (max-width: 360px) {
+    .showcase-title { font-size: 32px !important; }
+    .showcase-subtitle { font-size: 18px !important; }
+    .showcase-desc { font-size: 12px !important; }
+
+    .about-left-card-content h1 { padding-top: 5px; }
+    .about-left-card-content p { padding: 10px; }
+
+    .service h1, 
+    .about-left-card-content h1,
+    .career-right-card-content h1,
+    .projects-title  {
+        font-size: 22px;
     }
 
-    .ui.text.container.showcase-content {
-        max-width: 80%!important;
-        margin-top: 8em;
+    .service-title {
+        font-size: 14px !important;
     }
-    
-    .showcase-title {
-        font-size: 64px;
-    }
-    
-    .showcase-subtitle {
-        font-size: 48px;
-    }
-    
-    .showcase-desc {
-        font-size: 18px;
+
+    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
+        font-size: 12px !important;    
     }
 }
