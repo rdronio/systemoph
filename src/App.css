@@ -481,6 +481,11 @@
 
 @media only screen and (max-width: 991px) {
 
+
+    .footer {
+        background-position: bottom !important;
+    }
+
     .ui.grid>.column:not(.row) {
         padding: 0 !important;
     }
@@ -514,7 +519,7 @@
     }
 
     .ui.medium.image{
-        width: 100px !important;
+        width: 150px !important;
     }
 
     .service {
