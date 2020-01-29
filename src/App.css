@@ -506,6 +506,11 @@
     ::-webkit-scrollbar {
         width: 0px !important;
     }
+
+    .ui.medium.image{
+        width: 100px !important;
+    }
+
     .service {
         display: none;
     }
