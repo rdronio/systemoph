@@ -28,7 +28,7 @@ export default class About extends Component {
                         Our Mission
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="about-mission-desc">
-                        is to enable our EMPLOYEE to grow their business by: Treating the employees with respect.Providing valuable employment. Facilitate employee achievement and development. Compassion. Teamwork
+                        is to enable our EMPLOYEE to grow their business by: Treating the employees with respect. Providing valuable employment. Facilitate employee achievement and development. Compassion. Teamwork
                     </ScrollAnimation>
                 </Segment>
             </Segment>
