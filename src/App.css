@@ -658,6 +658,10 @@ border: none !important;
     .projects-desc {
         width: 50%;
     }
+
+    .about-mission-desc {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
