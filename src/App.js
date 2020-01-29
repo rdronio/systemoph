@@ -22,12 +22,12 @@ function App() {
       <Projects />
       <Footer />
       <MessengerCustomerChat
-        pageId=" 106849417483586"
+        pageId="106849417483586"
         appId="2370605603251620"
       /> */}
       <Maintenance />
       <MessengerCustomerChat
-        pageId=" 106849417483586"
+        pageId="106849417483586"
         appId="2370605603251620"
       /> 
     </div>
