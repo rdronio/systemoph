@@ -3,6 +3,8 @@ import { Image, Grid } from 'semantic-ui-react'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
+import circle from './images/circle.png';
+
 import websiteImage from './images/website.png';
 import hardwareImage from './images/hardware.png';
 import ecommerceImage from './images/ecommerce.png';
