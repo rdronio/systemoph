@@ -687,7 +687,7 @@ border: none !important;
     }
 
     .about-mission-desc {
-        width: 50%;
+        width: 60% !important;
     }
 }
 
