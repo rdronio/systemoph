@@ -33,7 +33,7 @@ export default class About extends Component {
                             </div>
                         </Grid.Column>
 
-                        <Grid.Column width="4" className="social">
+                        {/* <Grid.Column width="4" className="social">
                             <div className="footer-hours"> Follow us! </div>
                             <div className="footer-hours-content">
                                 <span> </span>
@@ -41,7 +41,7 @@ export default class About extends Component {
                                 <span> </span>
                                 <span> </span>
                             </div>
-                        </Grid.Column>
+                        </Grid.Column> */}
                     </Grid>
                 </div>
             </Segment>
