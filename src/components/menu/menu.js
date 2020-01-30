@@ -31,7 +31,7 @@ export default class MenuHeader extends Component {
                                 onClick={this.handleItemClick}
                             />
                             <Menu.Item
-                                as={ Link }  to='#about_' name='about'
+                                as={ Link }  to='.about' name='about'
                             />
                             <Menu.Item
                                 name='careers'
