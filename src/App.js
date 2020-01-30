@@ -10,7 +10,7 @@ import Careers from './components/careers/careers';
 import Projects from './components/projects/projects';
 import Footer from './components/footer/footer';
 
-// import Maintenance from './components/maintenance/maintenance';
+import Maintenance from './components/maintenance/maintenance';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
