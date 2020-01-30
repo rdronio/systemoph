@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Segment } from 'semantic-ui-react'
 
 import './style.css';
 import './mobile.css';
@@ -11,9 +12,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default class Maintenance extends Component {
     render() {
         return (
-            <ScrollAnimation>
-                Our site is under development, please bear with us
-            </ScrollAnimation>
+            <Segment className="maintenance-bottom fadeInUp" vertical textAlign='center'>
+                Our site is under development, please bear with us!
+            </Segment>
         )
     }
 }

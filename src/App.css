@@ -38,6 +38,15 @@
 }
 
 /* JMDR */
+.maintenance-bottom {
+    background: linear-gradient(90deg,#0c5fc3, #7b9dc6) !important;
+    position: fixed !important;
+    width: 100% !important;
+    color: #FFF;
+    letter-spacing: 2px;
+    bottom: 0;
+    left: 0;
+}
 
 .showcase {
     height: 100vh;

@@ -6,6 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import logo from './images/logo/systemoph-logo.png';
 import bg_landingpage from './images/bg_landingpage.png';
 
+import { Link } from 'react-router-dom'
+
 export default class MenuHeader extends Component {
   state = {}
 
@@ -30,7 +32,11 @@ export default class MenuHeader extends Component {
                                 active={activeItem === 'home'}
                                 onClick={this.handleItemClick}
                             />
-                            <Menu.Item as={ Link }  to='#about' name='about' />
+                            <Menu.Item
+                                name='about'
+                                active={activeItem === 'about'}
+                                onClick={this.handleItemClick}
+                            />
                             <Menu.Item
                                 name='careers'
                                 active={activeItem === 'careers'}
