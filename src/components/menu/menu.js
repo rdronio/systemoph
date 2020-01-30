@@ -81,7 +81,7 @@ export default class MenuHeader extends Component {
                     
 
                     <Segment className="showcase" vertical textAlign='center' style={{
-                        backgroundImage:  `linear-gradient(to bottom, rgb(177, 199, 255), url(${bg_landingpage})`}}>
+                        backgroundImage:  `linear-gradient(to bottom, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0)), url(${bg_landingpage})`}}>
                         <Container text textAlign="left" className="showcase-content">
                             <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-title">
                                 <span class="showcase-title first-word"> Expanding </span> <span class="showcase-title second-word"> Possibilities. </span>
