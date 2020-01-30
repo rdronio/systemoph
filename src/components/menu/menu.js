@@ -32,8 +32,6 @@ export default class MenuHeader extends Component {
                             />
                             <Menu.Item
                                 as={ Link } name='about' to='.about'
-                                active={activeItem === 'about'}
-                                onClick={this.handleItemClick}
                             />
                             <Menu.Item
                                 name='careers'
