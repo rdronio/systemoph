@@ -551,6 +551,11 @@ border: none !important;
 
 @media only screen and (max-width: 767px) {
 
+    .ui.vertical.segment.maintenance-bottom {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     ::-webkit-scrollbar {
         width: 0px !important;
     }
@@ -670,7 +675,7 @@ border: none !important;
     }
 
     .about-mission-desc {
-        width: 50%;
+        width: 60% !important;
     }
 }
 
