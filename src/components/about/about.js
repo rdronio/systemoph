@@ -8,7 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default class About extends Component {
     render() {
         return (
-            <Segment className="about" vertical textAlign='center' >
+            <Segment id="about_" className="about" vertical textAlign='center' >
                 <Grid stackable columns={2}>
                     <Grid.Column mobile={16} tablet={16} computer={8} className="about-left-card">
                         <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" className="about-left-card-content">
