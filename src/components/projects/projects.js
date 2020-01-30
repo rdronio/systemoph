@@ -10,7 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default class Projects extends Component {
     render() {
         return (
-            <Segment className="projects" vertical textAlign='center' >
+            <Segment id="ourworks_" className="projects" vertical textAlign='center' >
                 <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut" className="projects-title">
                     Our Works 
                 </ScrollAnimation>

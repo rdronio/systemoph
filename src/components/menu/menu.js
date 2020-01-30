@@ -6,6 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import logo from './images/logo/systemoph-logo.png';
 import bg_landingpage from './images/bg_landingpage.png';
 
+import { Link } from 'react-scroll';
+
 export default class MenuHeader extends Component {
   state = {}
 
@@ -15,56 +17,86 @@ export default class MenuHeader extends Component {
     const { activeItem } = this.state
 
     return (
-        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-            <Segment className="showcase" vertical textAlign='center' style={{
-                backgroundImage:  `url(${bg_landingpage})`}}>
-                <Menu secondary>
-                    <Container> 
+        <div>
+            <Menu secondary>
+                <Container> 
+                    <Menu.Item>
+                        <Image src={logo} size='medium' className="header_logo"/>
+                    </Menu.Item>
+                    
+                    <Menu.Menu position='right'>.
                         <Menu.Item>
-                            <Image src={logo} size='medium'/>
+                            <Link
+                                activeClass="active"
+                                to="about_"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="item"
+                            > About </Link>
                         </Menu.Item>
-                        
-                        <Menu.Menu position='right'>
-                            <Menu.Item
-                                name='home'
-                                active={activeItem === 'home'}
-                                onClick={this.handleItemClick}
-                            />
-                            <Menu.Item
-                                name='about'
-                                active={activeItem === 'about'}
-                                onClick={this.handleItemClick}
-                            />
-                            <Menu.Item
-                                name='careers'
-                                active={activeItem === 'careers'}
-                                onClick={this.handleItemClick}
-                            />
-                            <Menu.Item
-                            name='services'
-                            active={activeItem === 'services'}
-                            onClick={this.handleItemClick}
-                            />
-                        </Menu.Menu>
-                    </Container>
-                </Menu>
-
-                <Container text textAlign="left" className="showcase-content">
-                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-title">
-                        <span class="showcase-title first-word"> Expanding </span> <span class="showcase-title second-word"> Possibilities. </span>
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-subtitle">
-                        Consider it Solved.
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-desc">
-                        We aim to Provide Quality IT Solutions and Consultancy to help the growth of small, medium, and large enterprises.
-                    </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-button">
-                        <a href="#"> Get Started </a>
-                    </ScrollAnimation>
+                        <Menu.Item>
+                            <Link
+                                activeClass="active"
+                                to="services_"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="item"
+                            > Services </Link>
+                        </Menu.Item>
+                        <Menu.Item>
+                            <Link
+                                activeClass="active"
+                                to="careers_"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="item"
+                            > Careers </Link>
+                        </Menu.Item>
+                        <Menu.Item>
+                            <Link
+                                activeClass="active"
+                                to="ourworks_"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="item"
+                            >Our Works </Link>
+                        </Menu.Item>
+                    </Menu.Menu>
                 </Container>
-            </Segment>
-        </ScrollAnimation>
+            </Menu>
+
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+                
+
+                <Segment className="showcase" vertical textAlign='center' style={{
+                    backgroundImage:  `url(${bg_landingpage})`}}>
+                    
+
+                    <Container text textAlign="left" className="showcase-content">
+                        <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-title">
+                            <span class="showcase-title first-word"> Expanding </span> <span class="showcase-title second-word"> Possibilities. </span>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-subtitle">
+                            Consider it Solved.
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-desc">
+                            We which aim to Provide Quality IT Solutions and Consultancy to help the growth of small, medium, and large enterprises.
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-button">
+                            <a href="#"> Get Started </a>
+                        </ScrollAnimation>
+                    </Container>
+                </Segment>
+            </ScrollAnimation>
+        </div>
     )
   }
 }

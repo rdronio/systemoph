@@ -49,7 +49,7 @@
     font-family: 'Helvetica';
     color: #FFF !important;
     text-transform: uppercase;
-    margin-right: 50px !important;
+    margin-right: 20px !important;
     text-shadow: 4px 3px 3px #444;
     letter-spacing: 1.5px;
     font-weight: 800;
@@ -484,6 +484,23 @@ border: none !important;
     bottom: 0;
 }
 
+.ui.secondary.menu {
+    position: fixed !important;
+    width: 101% !important;
+    background: linear-gradient( #0c5fc3, transparent) !important;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+#services_ {
+    border: none !important;
+}
+
+.header_logo {
+    filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
@@ -550,11 +567,6 @@ border: none !important;
 }
 
 @media only screen and (max-width: 767px) {
-
-    .ui.vertical.segment.maintenance-bottom {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
 
     ::-webkit-scrollbar {
         width: 0px !important;
@@ -675,7 +687,7 @@ border: none !important;
     }
 
     .about-mission-desc {
-        width: 60% !important;
+        width: 50%;
     }
 }
 
