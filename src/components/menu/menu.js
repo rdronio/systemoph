@@ -6,8 +6,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import logo from './images/logo/systemoph-logo.png';
 import bg_landingpage from './images/bg_landingpage.png';
 
-import { Link } from 'react-router-dom'
-
 export default class MenuHeader extends Component {
   state = {}
 
