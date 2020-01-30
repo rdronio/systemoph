@@ -31,6 +31,7 @@ export default class MenuHeader extends Component {
                                 onClick={this.handleItemClick}
                             />
                             <Menu.Item
+                                as={ Link } name='profile' to='#about'
                                 name='about'
                                 active={activeItem === 'about'}
                                 onClick={this.handleItemClick}
