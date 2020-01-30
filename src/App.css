@@ -474,6 +474,15 @@ border: none !important;
     letter-spacing: 1px;
 }
 
+.maintenance-bottom {
+    width: 100% !important;
+    position: fixed !important;
+    background: linear-gradient(90deg, #0c5fc3, #7b9dc6) !important;
+    letter-spacing: 2px;
+    color: #FFF;
+    
+}
+
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {

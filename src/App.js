@@ -23,7 +23,7 @@ function App() {
       <Careers />
       <Projects />
       <Footer />
-      {/* <Maintenance /> */}
+      <Maintenance />
       <MessengerCustomerChat
         pageId="105340060897659"
         appId="2370605603251620"
