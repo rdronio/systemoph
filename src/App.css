@@ -487,7 +487,7 @@ border: none !important;
 .ui.secondary.menu {
     position: fixed !important;
     width: 101% !important;
-    background: linear-gradient(#50a0ff,transparent)!important;
+    background: linear-gradient(#bfdcff,transparent)!important;
     z-index: 1;
     top: 0;
     left: 0;
