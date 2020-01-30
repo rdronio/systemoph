@@ -9,11 +9,6 @@ import bg_landingpage from './images/bg_landingpage.png';
 import { Link } from 'react-router-dom'
 
 export default class MenuHeader extends Component {
-    render() {
-        return (
-        )
-    }
-}
   state = {}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
