@@ -13,8 +13,8 @@ export default class MenuHeader extends Component {
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-    scrollToBottom = () => {
-        scroll.scrollToBottom(); 
+    scrollToTop = () => {
+        scroll.scrollToTop(); 
     };
 
     render() {
@@ -32,7 +32,7 @@ export default class MenuHeader extends Component {
                             <Menu.Item>
                                 <Link
                                     activeClass="active"
-                                    onClick={this.scrollToBottom}
+                                    to="about_"
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
@@ -81,7 +81,7 @@ export default class MenuHeader extends Component {
                     
 
                     <Segment className="showcase" vertical textAlign='center' style={{
-                        backgroundImage:  `url(${bg_landingpage})`}}>
+                        backgroundImage:  `linear-gradient(to bottom, rgb(177, 199, 255), url(${bg_landingpage})`}}>
                         <Container text textAlign="left" className="showcase-content">
                             <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight" className="showcase-title">
                                 <span class="showcase-title first-word"> Expanding </span> <span class="showcase-title second-word"> Possibilities. </span>
