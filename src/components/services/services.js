@@ -5,6 +5,13 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import circle from './images/circle.png';
 
+import websiteImage from './images/website.png';
+import hardwareImage from './images/hardware.png';
+import ecommerceImage from './images/ecommerce.png';
+import webappsImage from './images/webapps.png';
+import outsourcingImage from './images/outsourcing.png';
+import onpremiseImage from './images/onpremise.png';
+
 export default class Service extends Component {
     render() {
         return (
@@ -19,11 +26,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={websiteImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Websites </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -34,11 +41,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={webappsImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Web Apps </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -49,11 +56,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={onpremiseImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> On Premise System </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -67,11 +74,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={hardwareImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Hardware </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -82,11 +89,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={outsourcingImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> Outsourcing and Offshoring </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>
@@ -97,11 +104,11 @@ export default class Service extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="service-content">
                             <Grid stackable columns={2}>
                                 <Grid.Column mobile={16} tablet={6} computer={6} className="services-image-content">
-                                    <Image src={circle} size="tiny" className="services-image"/>
+                                    <Image src={ecommerceImage} size="tiny" className="services-image"/>
                                 </Grid.Column>
                                 <Grid.Column mobile={16} tablet={10} computer={10} className="services-desc-content">
                                     <div>
-                                        <div className="service-title"> Web Development </div>
+                                        <div className="service-title"> E-Commerce </div>
                                         <div className="service-desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum </div>
                                     </div>
                                 </Grid.Column>

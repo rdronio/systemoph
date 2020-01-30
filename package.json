@@ -12,6 +12,10 @@
     "react-dom": "^16.12.0",
     "react-messenger-customer-chat": "^0.7.2",
     "react-scripts": "3.3.0",
+<<<<<<< HEAD
+=======
+    "react-scroll": "^1.7.16",
+>>>>>>> 1b7497e629f2b61495b0a9d2e03d6608e7ac6bae
     "react-slick": "^0.25.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
