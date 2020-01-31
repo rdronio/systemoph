@@ -25,7 +25,7 @@ export default class MenuHeader extends Component {
                 <Menu secondary>
                     <Container> 
                         <Menu.Item>
-                            <Image src={logo} size='medium' className="header_logo"/>
+                            <Image src={logo} size='small' className="header_logo"/>
                         </Menu.Item>
                         
                         <Menu.Menu position='right'>.

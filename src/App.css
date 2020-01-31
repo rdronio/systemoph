@@ -509,7 +509,7 @@ border: none !important;
     box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
     width: 350px;
     height: 35px;
-    border: solid 2px #0c5fc3 !important;
+    border: solid 2px #011f4b !important;
     font-family: 'Lato';
     letter-spacing: 1px;
     text-align: center;
@@ -562,7 +562,7 @@ border: none !important;
     color: #FFF;
     font-weight: bold;
     border: none !important;
-    background: #0c5fc3;
+    background: #011f4b;
     padding: 0 15px;
 }
 
@@ -598,7 +598,7 @@ border: none !important;
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
         max-width: 80%!important;
-        margin-top: 15em;
+        margin-top: 15em !important;
     }
     
     .showcase-title {
