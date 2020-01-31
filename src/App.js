@@ -12,6 +12,7 @@ import Footer from './components/footer/footer';
 
 import Maintenance from './components/maintenance/maintenance';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import MailChimp from './components/mailchimp/mailchimp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Careers />
       <Projects />
+      <MailChimp />
       <Footer />
       <Maintenance />
       <MessengerCustomerChat

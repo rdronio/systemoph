@@ -501,11 +501,104 @@ border: none !important;
     filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, 0.53));
 }
 
+.mailchimp {
+    border: none !important;
+}
+
+.mailchimp-content > div > input {
+    box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
+    width: 350px;
+    height: 35px;
+    border: solid 2px #0c5fc3 !important;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.mailchimp-content > div > input:placeholder {
+    padding-right: 5px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #d0cdfa;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+:-moz-placeholder { /* older Firefox*/
+    font-size:14px;
+    color: #d0cdfa;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+::-moz-placeholder { /* Firefox 19+ */ 
+    font-size: 14px;
+    color: #d0cdfa; 
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+} 
+
+:-ms-input-placeholder { 
+    font-size: 14px; 
+    color: #d0cdfa;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mailchimp-content > div > button {
+    box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
+    height: 35px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    color: #FFF;
+    font-weight: bold;
+    border: none !important;
+    background: #0c5fc3;
+    padding: 0 15px;
+}
+
+.mailchimp-title {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Lato';
+    font-weight: bold;
+    padding: 30px 10px;
+    font-size: 18px;
+}
+
+.mailchimp-content > div > div {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.mailchimp-social {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.mailchimp-social a {
+    margin: 0 auto !important;
+    padding: 0 2.5px;
+}
+
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
         max-width: 80%!important;
-        margin-top: 8em;
+        margin-top: 14em;
     }
     
     .showcase-title {
@@ -539,6 +632,9 @@ border: none !important;
 }
 
 @media only screen and (max-width: 991px) {
+
+    .mailchimp { border: none !important }
+
     .footer {
         background-position: bottom !important;
     }
@@ -567,6 +663,8 @@ border: none !important;
 }
 
 @media only screen and (max-width: 767px) {
+
+    .mailchimp { border: none !important }
 
     ::-webkit-scrollbar {
         width: 0px !important;
@@ -692,6 +790,13 @@ border: none !important;
 }
 
 @media only screen and (max-width: 480px) {
+
+    .mailchimp { border: none !important }
+    .mailchimp-title { padding: 30px 25px; }
+    .mailchimp-content > div > input {
+        width: 50% !important;
+    }
+
     .showcase-title { font-size: 42px !important; }
     .showcase-subtitle { font-size: 28px !important; }
     .showcase-desc { font-size: 14px !important; }

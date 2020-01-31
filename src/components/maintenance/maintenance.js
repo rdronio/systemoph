@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Segment } from 'semantic-ui-react'
 
-import LogoMaintenance from './images/logo.png';
-import MaintenanceImg from './images/maintenance.png';
+// import LogoMaintenance from './images/logo.png';
+// import MaintenanceImg from './images/maintenance.png';
 
 export default class Maintenance extends Component {
     render() {
