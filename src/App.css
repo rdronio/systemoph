@@ -598,7 +598,7 @@ border: none !important;
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
         max-width: 80%!important;
-        margin-top: 14em;
+        margin-top: 15em;
     }
     
     .showcase-title {
