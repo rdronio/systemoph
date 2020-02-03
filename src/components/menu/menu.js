@@ -90,7 +90,7 @@ export default class MenuHeader extends Component {
                                 Consider it Solved.
                             </ScrollAnimation>
                             <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-desc">
-                                We which aim to Provide Quality IT Solutions and Consultancy to help the growth of small, medium, and large enterprises.
+                                We aim to Provide Quality IT Solutions and Consultancy to help the growth of small, medium, and large enterprises.
                             </ScrollAnimation>
                             <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" className="showcase-button">
                                 <a href="#"> Get Started </a>
