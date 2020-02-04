@@ -465,6 +465,9 @@
 
 .mailchimp {
     border: none !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048)
 }
 
 .mailchimp-content > div > input {
@@ -529,7 +532,7 @@
 }
 
 .mailchimp-title {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53); */
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-family: 'Raleway';
@@ -554,6 +557,7 @@
 .mailchimp-social a {
     margin: 0 auto !important;
     padding: 0 2.5px;
+    filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, 0.53))
 }
 
 .showcase-desc,
@@ -562,6 +566,17 @@
 .about-mission-desc, 
 .projects-content-grid > div > p {
     color: rgba(76, 76, 76, 0.92);
+}
+
+.slickservice-title {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    font-family: 'Raleway' !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    font-size: 42px !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
@@ -673,7 +688,7 @@
     .slickservice-title {
         text-align: center;
         padding: 100px 0 50px 0;
-        font-family: 'Helvetica';
+        font-family: 'Raleway' !important;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
         font-size: 42px !important;
         font-weight: 900 !important;

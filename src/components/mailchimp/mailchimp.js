@@ -4,6 +4,7 @@ import { Segment, Image } from 'semantic-ui-react'
 // import LogoMaintenance from './images/logo.png';
 import facebookImg from './images/facebook.png';
 import linkedinImg from './images/linkedin.png';
+import blueBG from './images/bluebg.jpg';
 
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 
@@ -15,7 +16,8 @@ const SimpleForm = () => <MailchimpSubscribe url={url}/>
 export default class MailChimp extends Component {
     render() {
         return (
-            <Segment className="mailchimp" vertical textAlign='center' >
+            <Segment className="mailchimp" vertical textAlign='center' style={{
+                backgroundImage:  `linear-gradient(to bottom, rgba(255, 255, 255, 0.46), rgba(255, 255, 255, 0)), url(${blueBG})`}} >
 
                 <MailchimpSubscribe
                     url={url}

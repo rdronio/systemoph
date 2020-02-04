@@ -9,7 +9,9 @@ import ecommerceImage from './images/ecommerce.png';
 import webappsImage from './images/webapps.png';
 import outsourcingImage from './images/outsourcing.png';
 import onpremiseImage from './images/onpremise.png';
+
 import ScrollAnimation from 'react-animate-on-scroll';
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
