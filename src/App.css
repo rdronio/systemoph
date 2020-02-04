@@ -37,7 +37,9 @@
     }
 }
 
-/* JMDR */
+/* John Michael T. Del Rosario
+    SysteMoPH - Website
+    January 20, 2020        */
 
 .showcase {
     height: 100vh;
@@ -166,10 +168,15 @@
 }
 
 /* Service */
+#services_ {
+    padding-top: 150px!important;
+    padding-bottom: 100px!important;
+}
+
 .service {
     width: 80%;
     margin: 0 auto;
-    margin-top: 150px!important;
+    /* margin-top: 150px!important; */
     margin-bottom: 50px!important;
     border: none !important;
 }
@@ -209,9 +216,9 @@
 }
 
 .service-desc {
-    margin-top: 5px;
+    margin-top: 15px;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .service-row1,
@@ -219,9 +226,13 @@
     margin: 10px 0
 }
 
+.slick-service {
+    background-image: linear-gradient(#c7ceff, transparent) !important; 
+    border: none !important;
+}
 /* Careers */
 .careers {
-border: none !important;
+    border: none !important;
 }
 
 .career-right-card-content {
@@ -254,7 +265,7 @@ border: none !important;
 
 /* Projects */
 .projects {
-    background-image: linear-gradient(#c7ceff, transparent) !important;
+    /* background-image: linear-gradient(#c7ceff, transparent) !important; */
     border: none !important;
 }
 
@@ -275,7 +286,7 @@ border: none !important;
 }
 
 .projects-content-grid div {
-    box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
+    box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048) !important;
     margin: 5px 10px 5px 0 !important;
     padding: 20px !important;
     border-radius: 10px;
@@ -369,74 +380,6 @@ border: none !important;
     width: 15px !important;
 }
 
-/* .cursor {
-    width: 40px;
-    height: 40px;
-    border: 3px solid #7b9dc6;
-    border-radius: 50%;
-    position: absolute;
-    transition-duration: 200ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim .5s infinite alternate;
-    z-index: 1;
-} */
-
-/* .cursor::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    border: 2px solid #0c5fc3;
-    border-radius: 100%; 
-    opacity: .5;
-    top: -8px;
-    left: -8px;
-    transition-duration: 100ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim2 .5s infinite alternate;
-} */
-
-/* @keyframes cursorAnim {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(.7);
-    }
-}
-
-@keyframes cursorAnim2 {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(.4);
-    }
-}
-
-@keyframes cursorAnim3 {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(3);
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-.expand {
-    animation: cursorAnim3 .5s forwards;
-    border: 1px solid red;
-} */
-
-
 .ui.tiny.image {
     width: auto !important;
 }
@@ -448,6 +391,10 @@ border: none !important;
 
 .slick-service {
     display: none;
+}
+
+.slick-service {
+    padding-top: 100px;
 }
 
 /* About Mission */
@@ -494,6 +441,7 @@ border: none !important;
 }
 
 #services_ {
+    background-image: linear-gradient(#c7ceff, transparent) !important;
     border: none !important;
 }
 
@@ -594,6 +542,13 @@ border: none !important;
     padding: 0 2.5px;
 }
 
+.showcase-desc,
+.service-desc,
+.about-left-card-content p,
+.about-mission-desc, 
+.projects-content-grid > div > p {
+    color: rgba(76, 76, 76, 0.92);
+}
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {
@@ -664,7 +619,12 @@ border: none !important;
 
 @media only screen and (max-width: 767px) {
 
-    .mailchimp { border: none !important }
+    .projects-content-grid div {
+        
+    }
+  
+
+    .mailchimp { border: none !important; margin-top: 100px !important; }
 
     ::-webkit-scrollbar {
         width: 0px !important;
@@ -674,12 +634,12 @@ border: none !important;
         width: 150px !important;
     }
 
-    .service {
+    .service, #services_ {
         display: none;
     }
 
     .slick-service {
-        display: inline;
+        display: block;
         margin-bottom: 30px;
     }
 
@@ -698,7 +658,7 @@ border: none !important;
 
     .slickservice-title {
         text-align: center;
-        margin: 30px 0 100px 0;
+        padding: 100px 0 50px 0;
         font-family: 'Helvetica';
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
         font-size: 42px !important;
@@ -731,6 +691,7 @@ border: none !important;
 
     .projects-content-grid div, .projects-content-grid.ui.stackable.grid>.column:not(.row), .projects-content-grid.ui.stackable.grid>.wide.column { /* Try lang 'to */
         margin: 5px auto !important;
+        box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048) !important;
     }
 
     .ui.text.container.showcase-content {

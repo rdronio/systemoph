@@ -18,11 +18,13 @@ function App() {
   return (
     <div>
       <Menu />
-      <Service />
-      <SlickServices />
+      
+      <Projects />
       <About />
       <Careers />
-      <Projects />
+      
+      <Service />
+      <SlickServices />
       <MailChimp />
       <Footer />
       <Maintenance />

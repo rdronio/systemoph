@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import { Image, Grid } from 'semantic-ui-react'
+import { Image, Grid, Segment } from 'semantic-ui-react'
 import ReactDOM from 'react-dom';
 import Slider from "react-slick";
-
-import circle from './images/circle.png';
 
 import websiteImage from './images/website.png';
 import hardwareImage from './images/hardware.png';
@@ -28,7 +26,7 @@ export default class SlickServices extends Component {
             autoplaySpeed: 5000,
         };
         return (
-            <div className="slick-service">
+            <Segment vertical textAlign='center' className="slick-service" >
                 <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut" className="slickservice-title">
                     <h1> Services </h1>
                 </ScrollAnimation>
@@ -114,7 +112,7 @@ export default class SlickServices extends Component {
                     </Grid>
                 </div>
                 </Slider>
-            </div>
+            </Segment>
         );
     }
 }
