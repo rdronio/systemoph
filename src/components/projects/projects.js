@@ -33,9 +33,9 @@ export default class Projects extends Component {
                         </Grid.Column>
                     </Grid>
                 </ScrollAnimation>
-                <div className="projects-desc">
+                {/* <div className="projects-desc">
                     At SysteMoPH, we come to work everyday, excited on the new things we'll learn, the apps that we'll build, knowing that what we do solves problems and make lives better.
-                </div>
+                </div> */}
 
             </Segment>
         )

@@ -48,7 +48,7 @@
 
 .ui.secondary.menu .item,
 .right.menu .item {
-    font-family: 'Helvetica';
+    font-family: 'Raleway';
     color: #FFF !important;
     text-transform: uppercase;
     margin-right: 20px !important;
@@ -102,6 +102,7 @@
 }
 
 .showcase-desc {
+    font-family: 'Raleway';
     letter-spacing: 1px;
     margin-top: 20px;
     font-size: 24px;
@@ -154,7 +155,7 @@
 }
 
 .about-left-card-content h1 {
-    font-family: 'Helvetica';
+    font-family: 'Raleway';
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
     font-size: 42px;
     font-weight: 900;
@@ -163,6 +164,7 @@
 }
 
 .about-left-card-content p {
+    font-family: 'Roboto';
     font-size: 18px !important;
     letter-spacing: 1px;
 }
@@ -184,9 +186,10 @@
 .service h1{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
     text-transform: uppercase;
-    font-family: 'Helvetica';
+    font-family: 'Raleway';
     letter-spacing: 3px;
     text-align: center;
+    font-weight: 900;
     font-size: 42px;
 }
 
@@ -208,14 +211,15 @@
 
 .service-title {
     text-transform: uppercase;
-    font-family: 'Helvetica';
+    font-family: 'Raleway';
     letter-spacing: 1.5px;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 24px;
 }
 
 .service-desc {
+    font-family: 'Roboto';
     margin-top: 15px;
     letter-spacing: 1px;
     font-size: 16px;
@@ -236,23 +240,26 @@
 }
 
 .career-right-card-content {
-    padding: 5px;
+    padding: 4rem 0;
     margin-bottom: 25px;
 }
 
 .career-right-card-content h1{
-    text-align: left;
-    text-transform: uppercase;
+    font-family: 'Raleway';
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+    background: white;
     letter-spacing: 3px;
     margin-left: -190px;
-    margin-bottom: 0 !important;
-    font-size: 42px;
-    background: white;
     padding: 10px 50px;
+    font-weight: 900;
+    text-align: left;
+    font-size: 42px;
 }
 
-.career-right-card-content p{
+.career-right-card-content p {
+    font-family: 'Roboto';
     text-align: center;
     letter-spacing: 2px;
     line-height: 1.5;
@@ -273,7 +280,7 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
     margin: 50px 0 20px 0 !important;
     text-transform: uppercase;
-    font-family: 'Helvetica';
+    font-family: 'Raleway';
     letter-spacing: 1.5px;
     font-weight: 900;
     font-size: 42px;
@@ -294,14 +301,16 @@
 }
 
 .projects-content-grid > div > h3 {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    font-family: 'Raleway';
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53); */
     text-align: left !important;
     letter-spacing: 1.5px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 18px;
 }
 
 .projects-content-grid > div > p {
+    font-family: 'Roboto';
     text-align: left !important;
     letter-spacing: 1px;
 }
@@ -335,6 +344,7 @@
 .footer-contact-us,
 .footer-address,
 .footer-hours {
+    font-family: 'Raleway';
     text-align: left !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -345,6 +355,7 @@
 }
 
 .footer-contact-us-content {
+    font-family: 'Raleway';
     text-align: left !important;
     /* text-transform: uppercase; */
     letter-spacing: 1px;
@@ -358,6 +369,7 @@
 
 .footer-address-content,
 .footer-hours-content{
+    font-family: 'Raleway';
     text-align: left !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -404,15 +416,16 @@
 
 .about-mission-title {
     text-shadow: 2px 2px 2px rgba(0,0,0,.53);
-    font-family: 'Helvetica' !important;
+    font-family: 'Raleway' !important;
     margin: 30px 0 !important;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 20px;
 }
 
 .about-mission-desc {
+    font-family: 'Roboto';
     width: 40% !important;
     margin: 0 auto !important;
     font-style: italic !important;
@@ -505,7 +518,7 @@
     height: 35px;
     margin-top: 2px;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Raleway';
     letter-spacing: 1px;
     color: #FFF;
     font-weight: bold;
@@ -518,7 +531,7 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    font-family: 'Lato';
+    font-family: 'Raleway';
     font-weight: bold;
     padding: 30px 10px;
     font-size: 18px;

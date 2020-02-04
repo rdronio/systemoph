@@ -19,7 +19,7 @@ export default class Careers extends Component {
                         <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" className="career-right-card-content">
                             <h1> Careers </h1>
                             <p> Join as we grow. Come and join our team as we build our future. <br /> Please send your CV at salesmarketing@systemoph.com </p>
-                            <Button> Learn More </Button>
+                            {/* <Button> Learn More </Button> */}
                         </ScrollAnimation>
                     </Grid.Column>
                 </Grid>
