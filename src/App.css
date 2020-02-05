@@ -319,6 +319,7 @@
     width: 30%;
     margin: 0 auto !important;
     padding: 50px 0!important;
+    font-family: 'Roboto';
     letter-spacing: 1.5px;
     line-height: 1.5;
     font-size: 18px;
@@ -578,6 +579,13 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.slickservice-title h1 {
+    font-family: 'Raleway' !important;
+    font-weight: 900 !important;
+}
+
+
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
     .ui.text.container.showcase-content {

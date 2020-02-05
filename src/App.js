@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
+import ReactGa from 'react-ga';
 
 import Menu from './components/menu/menu';
 import About from './components/about/about';
@@ -15,6 +16,12 @@ import MessengerCustomerChat from 'react-messenger-customer-chat';
 import MailChimp from './components/mailchimp/mailchimp';
 
 function App() {
+
+  useEffect(() => {
+    ReactGa.initialize('UA-157820093-1');
+    ReactGa.pageview('/');
+  }, [])
+
   return (
     <div>
       <Menu />
