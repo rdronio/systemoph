@@ -7,7 +7,7 @@ import websiteImage from './images/website.png';
 import hrisImage from './images/HRIS.png';
 import mlmImage from './images/MLM.png';
 
-import dots from './images/dot.png';
+// import dots from './images/dot.png';
 
 
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -100,7 +100,7 @@ export default class Projects extends Component {
         };
 
         return (
-            <Segment vertical textAlign='center' className="slick-projects" >
+            <Segment id="ourworks_"vertical textAlign='center' className="slick-projects" >
                 <ScrollAnimation animateIn="zoomIn" animateOut="zoomOut" className="projects-title">
                     Our Works
                 </ScrollAnimation>

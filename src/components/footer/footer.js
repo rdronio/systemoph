@@ -3,13 +3,15 @@ import { Segment, Image, Grid } from 'semantic-ui-react'
 
 import logo from './images/systemoph-logo.png';
 import bg_footer from './images/buildings.png';
+import bg_footers from './images/building.png';
+
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class About extends Component {
     render() {
         return (
             <Segment className="footer" vertical textAlign='center' style={{
-                backgroundImage:  `url(${bg_footer})`}} >
+                backgroundImage:  `url(${bg_footers})`}} >
                 <div className="footer-content">
                     <Grid stackable columns={3}>
                         <Grid.Column width="5" className="">
