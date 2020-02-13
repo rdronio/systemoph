@@ -533,8 +533,8 @@
 .mailchimp {
   border: none !important;
   background-position: center center !important;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   background-attachment: fixed !important;
   box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
     0 5px 22px 4px rgba(0, 0, 0, 0.048);
