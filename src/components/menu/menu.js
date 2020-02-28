@@ -85,6 +85,19 @@ export default class MenuHeader extends Component {
                   Our Works{" "}
                 </Link>
               </Menu.Item>
+              <Menu.Item>
+                <Link
+                  activeClass="active"
+                  to="contactus_"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  className="item"
+                >
+                  Contact Us{" "}
+                </Link>
+              </Menu.Item>
             </Menu.Menu>
           </Container>
         </Menu>
@@ -119,8 +132,8 @@ export default class MenuHeader extends Component {
                 animateOut="fadeOutLeft"
                 className="showcase-desc"
               >
-                We aim to Provide Quality IT Solutions and Consultancy to help
-                the growth of small, medium, and large enterprises.
+                Providing Quality IT Solutions and Consultancy. <br />
+                Helping the growth of Small, Medium and Large Enterprises.
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInRight"

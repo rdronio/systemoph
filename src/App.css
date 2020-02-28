@@ -166,7 +166,7 @@
   letter-spacing: 3px;
 }
 
-.about-left-card-content p {
+.about-left-card-content ul li {
   font-family: "Roboto";
   font-size: 18px !important;
   letter-spacing: 1px;
@@ -174,8 +174,8 @@
 
 /* Service */
 #services_ {
-  padding-top: 150px !important;
-  padding-bottom: 100px !important;
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
 }
 
 .service {
@@ -636,7 +636,7 @@
 
 .showcase-desc,
 .service-desc,
-.about-left-card-content p,
+.about-left-card-content ul li,
 .about-mission-desc,
 .projects-content-grid > div > p {
   color: rgba(76, 76, 76, 0.92);
@@ -656,6 +656,14 @@
 .slickservice-title h1 {
   font-family: "Raleway" !important;
   font-weight: 900 !important;
+}
+
+.service > .ui.stackable.grid {
+  margin-top: 75px !important;
+}
+
+.about-left-card-content ul li {
+  margin: 10px 0;
 }
 
 /* Tablet and Mobile View */
@@ -849,7 +857,7 @@
     padding-top: 20px;
   }
 
-  .about-left-card-content p {
+  .about-left-card-content ul li {
     padding: 60px;
   }
 
@@ -857,7 +865,7 @@
     font-size: 18px !important;
   }
 
-  .about-left-card-content p,
+  .about-left-card-content ul li,
   .career-right-card-content p,
   .projects-desc,
   .service-desc {
@@ -897,8 +905,9 @@
   .about-left-card-content h1 {
     padding-top: 10px;
   }
-  .about-left-card-content p {
-    padding: 30px;
+  .about-left-card-content ul li {
+    margin: 0 0 !important;
+    padding: 10px 30px;
   }
 
   .service h1,
@@ -912,7 +921,7 @@
     font-size: 16px !important;
   }
 
-  .about-left-card-content p,
+  .about-left-card-content ul li,
   .career-right-card-content p,
   .projects-desc,
   .service-desc {
@@ -946,7 +955,7 @@
   .about-left-card-content h1 {
     padding-top: 5px;
   }
-  .about-left-card-content p {
+  .about-left-card-content ul li {
     padding: 20px;
   }
 
@@ -961,7 +970,7 @@
     font-size: 16px !important;
   }
 
-  .about-left-card-content p,
+  .about-left-card-content ul li,
   .career-right-card-content p,
   .projects-desc,
   .service-desc {
@@ -983,7 +992,7 @@
   .about-left-card-content h1 {
     padding-top: 5px;
   }
-  .about-left-card-content p {
+  .about-left-card-content ul li {
     padding: 10px;
   }
 
@@ -998,7 +1007,7 @@
     font-size: 14px !important;
   }
 
-  .about-left-card-content p,
+  .about-left-card-content ul li,
   .career-right-card-content p,
   .projects-desc,
   .service-desc {
