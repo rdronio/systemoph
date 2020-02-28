@@ -663,6 +663,7 @@
 }
 
 .about-left-card-content ul li {
+  list-style: none !important;
   margin: 10px 0;
 }
 
