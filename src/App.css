@@ -666,6 +666,10 @@
   margin: 10px 0;
 }
 
+.about-left-card-content ul {
+  padding: 15px 0 !important;
+}
+
 /* Tablet and Mobile View */
 @media only screen and (max-width: 1440px) {
   .ui.text.container.showcase-content {
