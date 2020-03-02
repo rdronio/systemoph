@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'systemoph'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f8ca26670bcd4a94a65e662fe8b9d7e3 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a4616d2e2fd74d3fbe2f064ccf8068ba }}
         package: .
