@@ -1,598 +1,1027 @@
 .App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /* JMDR */
-  
-  .showcase {
-      height: 100vh;
-      width: 100%;
-  }
-  
-  .ui.secondary.menu .item,
-  .right.menu .item {
-      font-family: 'Helvetica';
-      color: #FFF !important;
-      text-transform: uppercase;
-      margin-right: 50px !important;
-      text-shadow: 4px 3px 3px #444;
-      letter-spacing: 1.5px;
-      font-weight: 800;
-  }
-  
-  .ui.container {
-      width: 80% !important;
-  }
-  
-  /* Title */
-  
-  .ui.text.container.showcase-content{
-      max-width: 80% !important;
-      margin-top: 16em;
-  }
-  
-  .showcase-title {
-      font-family: 'Provicali';
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      text-transform: uppercase;
-      color: #000 !important;
-      letter-spacing: 5px;
-      font-weight: 900;
-      font-size: 72px;
-      line-height: 1;
-  }
-  
-  .showcase-title .first-word {
-      letter-spacing: 15px;
-  }
-  
-  .showcase-title .second-word {
-      text-shadow: none !important;
-      color: transparent !important;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
-  }
-  
-  .showcase-subtitle {
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      text-transform: uppercase;
-      font-family: 'Provicali';
-      color: #000 !important;
-      letter-spacing: 10px;
-      font-weight: 900;
-      font-size: 52px;
-      line-height: 1;   
-  }
-  
-  .showcase-desc {
-      letter-spacing: 1px;
-      margin-top: 20px;
-      font-size: 24px;
-      line-height: 1.2;
-      width: 47%;
-  }
-  
-  .showcase-button {
-      margin: 50px 0;
-  }
-  
-  .showcase-button a {
-      font-family: 'Helvetica';
-      text-transform: uppercase;
-      box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
-      border: solid 2px #011F4B;
-      color: #011F4B !important;
-      letter-spacing: 1px;
-      padding: 10px 25px; 
-      font-weight: 900;
-  }
-  
-  .showcase-button a:hover {
-      font-family: 'Helvetica';
-      text-transform: uppercase;
-      box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
-      border: solid 2px #011F4B;
-      color: #011F4B !important;
-      letter-spacing: 1px;
-      padding: 10px 25px; 
-      font-weight: 900;
-  }
-  
-  /* About */
-  .about {
-      padding: 15em 0 !important;
-      background-image: linear-gradient(transparent, #c7ceff) !important;
-  }
-  
-  .about .grid {
-      width: 75% !important;
-      margin: 0 auto !important;
-  }
-  
-  .about-left-card {
-      box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
-      background: white;
-      padding: 80px !important;
-      margin-right: -60px;
-  }
-  
-  .about-left-card-content h1 {
-      font-family: 'Helvetica';
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      font-size: 42px;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-  }
-  
-  .about-left-card-content p {
-      font-size: 18px !important;
-      letter-spacing: 1px;
-  }
-  
-  /* Service */
-  .service {
-      width: 80%;
-      margin: 0 auto;
-      margin-top: 150px!important;
-      margin-bottom: 50px!important;
-      border: none !important;
-  }
-  
-  .service h1{
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      text-transform: uppercase;
-      font-family: 'Helvetica';
-      letter-spacing: 3px;
-      text-align: center;
-      font-size: 42px;
-  }
-  
-  .service-content {
-      display: flex;
-  }
-  
-  .service-content img{
-      padding: 10px;
-  }
-  
-  .service-title {
-      text-transform: uppercase;
-      font-family: 'Helvetica';
-      letter-spacing: 1.5px;
-      font-weight: 900;
-      font-size: 24px;
-  }
-  
-  .service-desc {
-      margin-top: 5px;
-      letter-spacing: 1px;
-      font-size: 18px;
-  }
-  
-  .service-row1,
-  .service-row2 {
-      margin: 10px 0
-  }
-  
-  /* Careers */
-  .careers {
-    border: none !important;
-  }
-  
-  .career-right-card-content {
-      padding: 5px;
-  }
-  
-  .career-right-card-content h1{
-      text-align: left;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      letter-spacing: 3px;
-      margin-left: -190px;
-      margin-bottom: 0 !important;
-      font-size: 42px;
-      background: white;
-      padding: 10px 50px;
-  }
-  
-  .career-right-card-content p{
-      text-align: center;
-      letter-spacing: 2px;
-      line-height: 1.5;
-      font-size: 18px;
-  }
-  
-  .ui.vertical.center.aligned.segment.career {
-      padding: 0px !important;
-  }
-  
-  /* Projects */
-  .projects {
-      background-image: linear-gradient(#c7ceff, transparent) !important;
-      border: none !important;
-  }
-  
-  .projects-title {
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      margin: 50px 0 20px 0 !important;
-      text-transform: uppercase;
-      font-family: 'Helvetica';
-      letter-spacing: 1.5px;
-      font-weight: 900;
-      font-size: 42px;
-  }
-  
-  .projects-content {
-      width: 75% !important;
-      margin: 0 auto !important;
-      padding: 50px 0;
-  }
-  
-  .projects-content-grid div {
-      box-shadow: 0 7px 8px -4px rgba(0,0,0,.08), 0 5px 22px 4px rgba(0,0,0,.048);
-      margin: 5px 10px 5px 0 !important;
-      padding: 20px !important;
-      border-radius: 10px;
-      background: #fff;
-  }
-  
-  .projects-content-grid > div > h3 {
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      text-align: left !important;
-      letter-spacing: 1.5px;
-      font-weight: 900;
-      font-size: 18px;
-  }
-  
-  .projects-content-grid > div > p {
-      text-align: left !important;
-      letter-spacing: 1px;
-  }
-  
-  .projects-desc {
-      width: 30%;
-      margin: 0 auto !important;
-      padding: 50px 0!important;
-      letter-spacing: 1.5px;
-      line-height: 1.5;
-      font-size: 18px;
-  }
-  
-  .about-image,
-  .services-image {
-      filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, 0.53));
-  }
-  
-  /* Footer */
-  .footer {
-      background-position: center !important;
-      background-size: cover !important;
-  }
-  
-  .footer-content {
-      width: 80% !important;
-      margin: 0 auto !important;
-      padding: 200px 0 225px 0;
-  }
-  
-  .footer-contact-us,
-  .footer-address,
-  .footer-hours {
-      text-align: left !important;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 900;
-      font-size: 18px;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      color: #000;
-  }
-  
-  .footer-contact-us-content {
-        text-align: left !important;
-        /* text-transform: uppercase; */
-        letter-spacing: 1px;
-        margin-top: 10px;
-        margin-left: 25px;
-        font-weight: 400;
-        font-size: 14px;
-        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-        color: #000;
-  }
+  text-align: center;
+}
 
-  .footer-address-content,
-  .footer-hours-content{
-      text-align: left !important;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-top: 10px;
-      margin-left: 25px;
-      font-weight: 400;
-      font-size: 14px;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
-      color: #000;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  ::-webkit-scrollbar-thumb {
-      background: linear-gradient(#0c5fc3, #7b9dc6) !important;
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-      border-radius: 10px 10px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  ::-webkit-scrollbar {
-      background: linear-gradient(#b6bdc6, #b1cef3) !important;
-      width: 15px !important;
+  to {
+    transform: rotate(360deg);
   }
-  
-  /* .cursor {
-      width: 40px;
-      height: 40px;
-      border: 3px solid #7b9dc6;
-      border-radius: 50%;
-      position: absolute;
-      transition-duration: 200ms;
-      transition-timing-function: ease-out;
-      animation: cursorAnim .5s infinite alternate;
-      z-index: 1;
-  } */
-  
-  /* .cursor::after {
-      content: "";
-      width: 20px;
-      height: 20px;
-      position: absolute;
-      border: 2px solid #0c5fc3;
-      border-radius: 100%; 
-      opacity: .5;
-      top: -8px;
-      left: -8px;
-      transition-duration: 100ms;
-      transition-timing-function: ease-out;
-      animation: cursorAnim2 .5s infinite alternate;
-  } */
-  
-  /* @keyframes cursorAnim {
-      from {
-          transform: scale(1);
-      }
-  
-      to {
-          transform: scale(.7);
-      }
-  }
-  
-  @keyframes cursorAnim2 {
-      from {
-          transform: scale(1);
-      }
-  
-      to {
-          transform: scale(.4);
-      }
-  }
-  
-  @keyframes cursorAnim3 {
-      0% {
-          transform: scale(1);
-      }
-  
-      50% {
-          transform: scale(3);
-      }
-  
-      100% {
-          transform: scale(1);
-          opacity: 0;
-      }
-  }
-  
-  .expand {
-      animation: cursorAnim3 .5s forwards;
-      border: 1px solid red;
-  } */
-  
+}
+
+/* John Michael T. Del Rosario
+    SysteMoPH - Website
+    January 20, 2020        */
+
+.showcase {
+  height: 100vh;
+  width: 100%;
+}
+
+.ui.secondary.menu .item,
+.right.menu .item {
+  font-family: "Raleway";
+  color: #fff !important;
+  text-transform: uppercase;
+  margin-right: 20px !important;
+  text-shadow: 0 0 8px #000;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+}
+
+.ui.container {
+  width: 80% !important;
+}
+
+/* Title */
+
+.ui.text.container.showcase-content {
+  max-width: 80% !important;
+  margin-top: 22em;
+}
+
+.showcase-title {
+  font-family: "Provicali";
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  text-transform: uppercase;
+  color: #000 !important;
+  letter-spacing: 5px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.showcase-title .first-word {
+  letter-spacing: 15px;
+}
+
+.showcase-title .second-word {
+  text-shadow: none !important;
+  color: transparent !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.showcase-subtitle {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  text-transform: uppercase;
+  font-family: "Provicali";
+  color: #000 !important;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 1;
+}
+
+.showcase-desc {
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.2;
+  width: 47%;
+}
+
+.showcase-button {
+  margin: 50px 0;
+}
+
+.showcase-button a {
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  border: solid 2px #011f4b;
+  color: #011f4b !important;
+  letter-spacing: 1px;
+  padding: 10px 25px;
+  font-weight: 900;
+}
+
+.showcase-button a:hover {
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  border: solid 2px #011f4b;
+  color: #011f4b !important;
+  letter-spacing: 1px;
+  padding: 10px 25px;
+  font-weight: 900;
+}
+
+/* About */
+.about {
+  padding: 15em 0 !important;
+  background-image: linear-gradient(transparent, #c7ceff) !important;
+}
+
+.about .grid {
+  width: 75% !important;
+  margin: 0 auto !important;
+}
+
+.about-left-card {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  background: white;
+  padding: 80px !important;
+  margin-right: -60px;
+}
+
+.about-left-card-content h1 {
+  font-family: "Raleway";
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  font-size: 42px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.about-left-card-content ul li {
+  font-family: "Roboto";
+  font-size: 18px !important;
+  letter-spacing: 1px;
+}
+
+/* Service */
+#services_ {
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+}
+
+.service {
+  width: 80%;
+  margin: 0 auto;
+  /* margin-top: 150px!important; */
+  margin-bottom: 50px !important;
+  border: none !important;
+}
+
+.service h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.service-content {
+  display: flex;
+}
+
+.service-content img {
+  padding: 10px;
+}
+
+.services-image {
+  transition: all 0.2s ease-in-out;
+}
+
+.services-image:hover {
+  transform: scale(1.2);
+}
+
+.service-title {
+  text-transform: uppercase;
+  font-family: "Raleway";
+  letter-spacing: 1.5px;
+  line-height: 1;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.service-desc {
+  font-family: "Roboto";
+  margin-top: 15px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.service-row1,
+.service-row2 {
+  margin: 10px 0;
+}
+
+.slick-service {
+  background-image: linear-gradient(#c7ceff, transparent) !important;
+  border: none !important;
+}
+/* Careers */
+.careers {
+  border: none !important;
+}
+
+.career-right-card-content {
+  padding: 4rem 0;
+  margin-bottom: 25px;
+}
+
+.career-right-card-content h1 {
+  font-family: "Raleway";
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+  background: white;
+  letter-spacing: 3px;
+  margin-left: -190px;
+  padding: 10px 50px;
+  font-weight: 900;
+  text-align: left;
+  font-size: 42px;
+}
+
+.career-right-card-content p {
+  font-family: "Roboto";
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.ui.vertical.center.aligned.segment.career {
+  padding: 0px !important;
+}
+
+/* Slick Projects */
+.projects-title {
+  font-family: "Raleway" !important;
+  font-weight: 900 !important;
+}
+
+.slick-projects {
+  border: none !important;
+  padding: 50px 0 !important;
+}
+
+.slickproject-grid {
+  padding-top: 50px !important;
+  border: none !important;
+  width: 75% !important;
+  margin: 0 auto !important;
+}
+
+.projects-image {
+  border-radius: 10px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
+.project-content-grid {
+  width: 75% !important;
+  margin: 0 auito;
+}
+
+.project-content-grid h3 {
+  font-family: "Raleway";
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.project-content-grid p {
+  font-family: "Roboto";
+  letter-spacing: 1px;
+  font-size: 14px !important;
+}
+
+.slick-projects .slick-slide.slick-center {
+  opacity: 1 !important;
+}
+
+.slick-slide.slick-center > div > div > div > .slickproject-grid {
+  transform: scale(1.2) !important;
+  opacity: 1 !important;
+}
+
+.slick-projects .slick-slide {
+  opacity: 0.5;
+}
+
+.project-content-grid img {
+  margin: 0 auto !important;
+}
+
+.slick-projects .slick-dots li {
+  top: 25px !important;
+}
+
+/* Projects */
+.projects {
+  /* background-image: linear-gradient(#c7ceff, transparent) !important; */
+  border: none !important;
+}
+
+.projects-title {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  margin: 50px 0 20px 0 !important;
+  text-transform: uppercase;
+  font-family: "Raleway";
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.projects-content {
+  width: 75% !important;
+  margin: 0 auto !important;
+  padding: 50px 0;
+}
+
+.projects-content-grid div {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+  margin: 5px 10px 5px 0 !important;
+  padding: 20px !important;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.projects-content-grid > div > h3 {
+  font-family: "Raleway";
+  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53); */
+  text-align: left !important;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.projects-content-grid > div > p {
+  font-family: "Roboto";
+  text-align: left !important;
+  letter-spacing: 1px;
+}
+
+.projects-desc {
+  width: 30%;
+  margin: 0 auto !important;
+  padding: 50px 0 !important;
+  font-family: "Roboto";
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.about-image,
+.services-image {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
+/* Footer */
+.footer {
+  /* background-position: center !important; */
+  background-size: cover !important;
+}
+
+.footer-content {
+  width: 80% !important;
+  margin: 0 auto !important;
+  padding: 200px 0 225px 0;
+}
+
+.footer-contact-us,
+.footer-address,
+.footer-hours {
+  font-family: "Raleway";
+  text-align: left !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  color: #000;
+}
+
+.footer-contact-us-content {
+  font-family: "Raleway";
+  text-align: left !important;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  color: #000;
+}
+
+.footer-address-content,
+.footer-hours-content {
+  font-family: "Raleway";
+  text-align: left !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#0c5fc3, #7b9dc6) !important;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px !important;
+}
+
+::-webkit-scrollbar {
+  background: linear-gradient(#b6bdc6, #b1cef3) !important;
+  width: 15px !important;
+}
 
 .ui.tiny.image {
-    width: auto !important;
+  width: auto !important;
 }
 
 .segment.showcase {
-    background-position: top !important;
-    background-size: cover !important;
+  background-position: top !important;
+  background-size: cover !important;
 }
 
-  /* Tablet and Mobile View */
-  @media only screen and (max-width: 991px) {
-      .right.menu {
-          display: none !important;
-      }
-  
-      .service:nth-of-type(2) .grid > div {
-          margin: 0 auto !important;
-      }
-  
-      .ui.stackable.grid {
-          margin-left: auto !important;
-          margin-right: auto !important;
-      }
-  
-      .career-right-card-content h1 {
-          margin-left: 0px;
-          text-align: center;
-      }
-  
-      .projects-content-grid div{
-          margin: 5px auto !important;
-      }
+.slick-service {
+  display: none;
+}
+
+.slick-service {
+  padding-top: 100px;
+}
+
+/* About Mission */
+.about-mission {
+  margin: 150px 0 10px 0 !important;
+}
+
+.about-mission-title {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  font-family: "Raleway" !important;
+  margin: 30px 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.about-mission-desc {
+  font-family: "Roboto";
+  width: 40% !important;
+  margin: 0 auto !important;
+  font-style: italic !important;
+  font-size: 18px !important;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.maintenance-bottom {
+  background: linear-gradient(90deg, #0c5fc3, #7b9dc6) !important;
+  position: fixed !important;
+  font-family: "Raleway";
+  width: 100% !important;
+  letter-spacing: 2px;
+  color: #fff;
+  left: 0;
+  bottom: 0;
+}
+
+.ui.secondary.menu {
+  position: fixed !important;
+  width: 101% !important;
+  background: linear-gradient(#bfdcff, transparent) !important;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#services_ {
+  background-image: linear-gradient(#c7ceff, transparent) !important;
+  border: none !important;
+}
+
+.header_logo {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
+.mailchimp {
+  border: none !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+}
+
+.mailchimp-content > div > input {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  width: 350px;
+  height: 35px;
+  border: solid 2px #011f4b !important;
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.mailchimp-content > div > input:placeholder {
+  padding-right: 5px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  color: #d0cdfa;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+:-moz-placeholder {
+  /* older Firefox*/
+  font-size: 14px;
+  color: #d0cdfa;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 14px;
+  color: #d0cdfa;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  color: #d0cdfa;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mailchimp-content > div > button {
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+    0 5px 22px 4px rgba(0, 0, 0, 0.048);
+  height: 35px;
+  /* margin-top: 2px; */
+  text-transform: uppercase;
+  font-family: "Raleway";
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: bold;
+  border: none !important;
+  background: #011f4b;
+  padding: 0 15px;
+}
+
+.mailchimp-title {
+  /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53); */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: "Raleway";
+  font-weight: bold;
+  padding: 30px 10px;
+  font-size: 18px;
+}
+
+.mailchimp-content > div > div {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.mailchimp-social {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.mailchimp-social a {
+  margin: 0 auto !important;
+  padding: 0 2.5px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.53));
+}
+
+.showcase-desc,
+.service-desc,
+.about-left-card-content ul li,
+.about-mission-desc,
+.projects-content-grid > div > p {
+  color: rgba(76, 76, 76, 0.92);
+}
+
+.slickservice-title {
+  text-align: center;
+  padding: 100px 0 50px 0;
+  font-family: "Raleway" !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+  font-size: 42px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.slickservice-title h1 {
+  font-family: "Raleway" !important;
+  font-weight: 900 !important;
+}
+
+.service > .ui.stackable.grid {
+  margin-top: 75px !important;
+}
+
+.about-left-card-content ul li {
+  list-style: none !important;
+  margin: 10px 0;
+}
+
+.about-left-card-content ul {
+  padding: 15px 0 !important;
+}
+
+/* Tablet and Mobile View */
+@media only screen and (max-width: 1440px) {
+  .ui.text.container.showcase-content {
+    max-width: 80% !important;
+    margin-top: 15em !important;
   }
-  
+
+  .showcase-title {
+    font-size: 64px;
+  }
+
+  .showcase-subtitle {
+    font-size: 48px;
+  }
+
+  .showcase-desc {
+    font-size: 18px;
+  }
+
+  .ui.text.container.showcase-content {
+    max-width: 80% !important;
+    margin-top: 8em;
+  }
+
+  .showcase-title {
+    font-size: 64px;
+  }
+
+  .showcase-subtitle {
+    font-size: 48px;
+  }
+
+  .showcase-desc {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mailchimp {
+    border: none !important;
+  }
+
+  .footer {
+    background-position: bottom !important;
+  }
+
+  .right.menu {
+    display: none !important;
+  }
+
+  .service:nth-of-type(2) .grid > div {
+    margin: 0 auto !important;
+  }
+
+  .ui.stackable.grid {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .career-right-card-content h1 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .projects-content-grid div {
+    margin: 5px auto !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
-    .right.menu {
-        display: none !important;
-    }
+  .projects-content-grid div {
+  }
 
-    .service:nth-of-type(2) .grid > div {
-        margin: 0 auto !important;
-    }
+  .mailchimp {
+    border: none !important;
+    margin-top: 100px !important;
+  }
 
-    .ui.stackable.grid {
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
+  ::-webkit-scrollbar {
+    width: 0px !important;
+  }
 
-    .career-right-card-content h1 {
-        margin-left: 0px;
-        text-align: center;
-    }
+  .ui.medium.image {
+    width: 150px !important;
+  }
 
-    .projects-content-grid div, .projects-content-grid.ui.stackable.grid>.column:not(.row), .projects-content-grid.ui.stackable.grid>.wide.column { /* Try lang 'to */
-        margin: 5px auto !important;
-    }
+  .service,
+  #services_ {
+    display: none;
+  }
 
-    .ui.text.container.showcase-content {
-        max-width: 90%;
-        margin: 6rem auto !important;
-    }
+  .slick-service {
+    display: block;
+    margin-bottom: 30px;
+  }
 
-    .showcase-title {
-        text-align: center;
-        font-size: 52px !important;
-    }
+  .slick-service .service-desc {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
 
-    .showcase-subtitle {
-        text-align: center;
-        font-size: 38px !important;
-    }
+  .ui.stackable.grid > .slickservices-image-content.column:not(.row),
+  .ui.stackable.grid > .slickservices-image-content.wide.column {
+    width: 20% !important;
+    margin: 0 auto !important;
+  }
 
-    .showcase-desc {
-        text-align: center;
-        font-size: 14px;
-        width: 90% !important;
-    }
+  .slickservice-title {
+    text-align: center;
+    padding: 100px 0 50px 0;
+    font-family: "Raleway" !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.53);
+    font-size: 42px !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
 
-    .showcase-button { text-align: center !important; }
-    .showcase-button a, .showcase-button a:hover { background: #FFF !important; }
+  .right.menu {
+    display: none !important;
+  }
 
-    .service h1, 
-    .about-left-card-content h1,
-    .career-right-card-content h1,
-    .projects-title  {
-        font-size: 36px;
-    }
-    
-    .about-left-card-content h1 {
-        padding-top: 20px;
-    }
+  .service:nth-of-type(2) .grid > div {
+    margin: 0 auto !important;
+  }
 
-    .about-left-card-content p {
-        padding: 60px;
-    }
+  .slickproject-grid.ui.stackable.grid {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 
-    .service-title {
-        font-size: 18px !important;
-    }
+  .career-right-card-content h1 {
+    margin-left: 0px;
+    text-align: center;
+  }
 
-    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
-        font-size: 16px !important;    
-    }
+  .services-desc-content {
+    text-align: center !important;
+  }
 
-    .projects-desc {
-        width: 50%;
-    }
+  .projects-content-grid div,
+  .projects-content-grid.ui.stackable.grid > .column:not(.row),
+  .projects-content-grid.ui.stackable.grid > .wide.column {
+    /* Try lang 'to */
+    margin: 5px auto !important;
+    box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.08),
+      0 5px 22px 4px rgba(0, 0, 0, 0.048) !important;
+  }
+
+  .ui.text.container.showcase-content {
+    max-width: 90%;
+    margin: 14rem auto !important;
+  }
+
+  .showcase-title {
+    text-align: center;
+    font-size: 52px !important;
+  }
+
+  .showcase-subtitle {
+    text-align: center;
+    font-size: 38px !important;
+  }
+
+  .showcase-desc {
+    text-align: center;
+    font-size: 14px;
+    width: 90% !important;
+  }
+
+  .showcase-button {
+    text-align: center !important;
+  }
+  .showcase-button a,
+  .showcase-button a:hover {
+    background: #fff !important;
+  }
+
+  .service h1,
+  .about-left-card-content h1,
+  .career-right-card-content h1,
+  .projects-title {
+    font-size: 36px;
+  }
+
+  .about-left-card-content h1 {
+    padding-top: 20px;
+  }
+
+  .about-left-card-content ul li {
+    padding: 60px;
+  }
+
+  .service-title {
+    font-size: 18px !important;
+  }
+
+  .about-left-card-content ul li,
+  .career-right-card-content p,
+  .projects-desc,
+  .service-desc {
+    font-size: 16px !important;
+  }
+
+  .projects-desc {
+    width: 50%;
+  }
+
+  .about-mission-desc {
+    width: 60% !important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  .mailchimp {
+    border: none !important;
+  }
+  .mailchimp-title {
+    padding: 30px 25px;
+  }
+  .mailchimp-content > div > input {
+    width: 50% !important;
+  }
 
-    .showcase-title { font-size: 48px !important; }
-    .showcase-subtitle { font-size: 34px !important; }
-    .showcase-desc { font-size: 16px !important; }
+  .showcase-title {
+    font-size: 42px !important;
+  }
+  .showcase-subtitle {
+    font-size: 28px !important;
+  }
+  .showcase-desc {
+    font-size: 14px !important;
+  }
 
-    .about-left-card-content h1 { padding-top: 10px; }
-    .about-left-card-content p { padding: 30px; }
+  .about-left-card-content h1 {
+    padding-top: 10px;
+  }
+  .about-left-card-content ul li {
+    margin: 0 0 !important;
+    padding: 10px 30px;
+  }
 
-    .service h1, 
-    .about-left-card-content h1,
-    .career-right-card-content h1,
-    .projects-title  {
-        font-size: 32px;
-    }
+  .service h1,
+  .about-left-card-content h1,
+  .career-right-card-content h1,
+  .projects-title {
+    font-size: 28px;
+  }
 
-    .service-title {
-        font-size: 16px !important;
-    }
+  .service-title {
+    font-size: 16px !important;
+  }
 
-    .about-left-card-content p, .career-right-card-content p, .projects-desc, .service-desc {
-        font-size: 14px !important;    
-    }
+  .about-left-card-content ul li,
+  .career-right-card-content p,
+  .projects-desc,
+  .service-desc {
+    font-size: 14px !important;
+  }
+
+  .ui.stackable.grid > .services-image-content.column:not(.row),
+  .ui.stackable.grid > .services-image-content.wide.column {
+    width: 40% !important;
+    margin: 0 auto !important;
+  }
+
+  .ui.stackable.grid > .slickservices-image-content.column:not(.row),
+  .ui.stackable.grid > .slickservices-image-content.wide.column {
+    width: 30% !important;
+    margin: 0 auto !important;
+  }
 }
 
-@media only screen and (max-width: 1440px) {
-    .ui.text.container.showcase-content {
-        max-width: 80%!important;
-        margin-top: 8em;
-    }
-    
-    .showcase-title {
-        font-size: 64px;
-    }
-    
-    .showcase-subtitle {
-        font-size: 48px;
-    }
-    
-    .showcase-desc {
-        font-size: 18px;
-    }
+@media only screen and (max-width: 400px) {
+  .showcase-title {
+    font-size: 38px !important;
+  }
+  .showcase-subtitle {
+    font-size: 24px !important;
+  }
+  .showcase-desc {
+    font-size: 14px !important;
+  }
 
-    .ui.text.container.showcase-content {
-        max-width: 80%!important;
-        margin-top: 8em;
-    }
-    
-    .showcase-title {
-        font-size: 64px;
-    }
-    
-    .showcase-subtitle {
-        font-size: 48px;
-    }
-    
-    .showcase-desc {
-        font-size: 18px;
-    }
+  .about-left-card-content h1 {
+    padding-top: 5px;
+  }
+  .about-left-card-content ul li {
+    padding: 20px;
+  }
+
+  .service h1,
+  .about-left-card-content h1,
+  .career-right-card-content h1,
+  .projects-title {
+    font-size: 28px;
+  }
+
+  .service-title {
+    font-size: 16px !important;
+  }
+
+  .about-left-card-content ul li,
+  .career-right-card-content p,
+  .projects-desc,
+  .service-desc {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .showcase-title {
+    font-size: 32px !important;
+  }
+  .showcase-subtitle {
+    font-size: 18px !important;
+  }
+  .showcase-desc {
+    font-size: 12px !important;
+  }
+
+  .about-left-card-content h1 {
+    padding-top: 5px;
+  }
+  .about-left-card-content ul li {
+    padding: 10px;
+  }
+
+  .service h1,
+  .about-left-card-content h1,
+  .career-right-card-content h1,
+  .projects-title {
+    font-size: 22px;
+  }
+
+  .service-title {
+    font-size: 14px !important;
+  }
+
+  .about-left-card-content ul li,
+  .career-right-card-content p,
+  .projects-desc,
+  .service-desc {
+    font-size: 12px !important;
+  }
+
+  .ui.stackable.grid > .slickservices-image-content.column:not(.row),
+  .ui.stackable.grid > .slickservices-image-content.wide.column {
+    width: 40% !important;
+    margin: 0 auto !important;
+  }
 }
